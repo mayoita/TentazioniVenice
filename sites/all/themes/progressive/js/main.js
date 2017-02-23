@@ -1293,7 +1293,7 @@ function initialize() {
 	};
   
 	var map = new google.maps.Map($this[0], mapOptions);
-	var image = Drupal.settings.basePath + Drupal.settings.theme_path + '/img/svg/map-marker.svg';
+	var image = Drupal.settings.basePath + Drupal.settings.theme_path + '/img/svg/map-marker.png';
 	
 	if (dataContent !== undefined && dataContent !== false) {
 	  contentString = '<div class="map-content">' +
